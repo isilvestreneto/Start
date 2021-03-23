@@ -144,11 +144,116 @@ e Caminhos dos arquivos<br><br>
 * relativo à página aberta no momento;<br>
 * apontará para lugares diferentes.
 
+<h3>Table</h3>
+— Prós<br>
+* Visualização de dados vias linhas e colunas;<br>
+* Boa acessibilidade para leitura dos dados.<br><br>
+
+— Contras<br>
+* Pouco flexível;<br>
+* Precisa de estilização para melhor visualização;<br><br>
+
+— Não usar<br>
+* Para criar seu layout<br>
+
+<h4>Tabela básica</h4>
+
+<!-- Terminar código abaixo para exibir as tags 
+    
+    <code> 
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+
+        <tr>
+            <td>Ivan</td>
+            <td>25 anos</td>
+        </tr>
+    </table>
+</code> -->
+
+    <table>
+        <caption>Pessoas por idade</caption> <!--Usado para acessibilidade-->
+
+        <thead>
+        <td>
+            <th>Nome</th>
+            <th>Idade</th>
+        </td>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Ivan</td>
+            <td>25 anos</td>
+        </tr>
+      
+        <tr>
+            <td>Pedro</td>
+            <td>26 anos</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>Total:</tr>
+            <tr>2 pessoas</tr>
+        </tfoot>
+    </table>
+
+<!--
+    2 Lojas
+    Quantos produtos foram produzidos, quantos vendidos e agrupado por nome dos produtos.
+-->
+<h4>Tabela complexa com acessibilidade</h4>
+<table>
+
+    <caption>Produzidos x Vendidos / Loja</caption> 
+
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: green">
+        <col span="2" style="background-color:brown">
+    </colgroup>
+    <thead>
+
+    <tr>
+        <th rowspan="2"></th> <!--ocupar dois espaços de linha-->
+        <th colspan="2" scope="coldgroup">Basílio</th> <!--ocupar dois espaços de coluna-->
+        <th colspan="2" scope="coldgroup">Olik</th>
+    </tr>
+
+    <tr>
+        <th scope="col">Produzidos</th>
+        <th scope="col">Vendidos</th>
+        <th scope="col">Produzidos</th>
+        <th scope="col">Vendidos</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+        <tr>
+            <th scope="row">Executivo</th>
+            <td>20</td>
+            <td>20</td>
+            <td>50</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <th scope ="row">Sobremesa</th>
+            <td>15</td>
+            <td>8</td>
+            <td>50</td>
+            <td>27</td>
+        </tr>
 
 
+    </tbody>
 
-
-
+</table>
 
 
 
