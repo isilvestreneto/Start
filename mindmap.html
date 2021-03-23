@@ -26,6 +26,7 @@
   Alguns caracteres são reservados para o código, por isso eles precisam de
   adequações se necessário exibí-los no texto.
 </p>
+
 <!--
 &nbsp; para dar espaço 
 &lt; para <
@@ -122,7 +123,11 @@ Elemento âncora: <code>&lt;a&gt;</code><br><br>
 — target<br>
     * _self (padrão)<br>
     * _blank (abre em uma nova aba)<br><br>
-<a href="http://google.com" title="Ir para o Google!" target="_blank"><img src="./images/logogoogle.png" width="30" alt="Ir para o Google!"></a>
+<a href="http://google.com" 
+    title="Ir para o Google!"
+    target="_blank">
+    
+    <img src="./images/logogoogle.png" width="30" alt="Ir para o Google!"></a>
 
 <H4>URLs</H4>
 e Caminhos dos arquivos<br><br>
@@ -255,12 +260,43 @@ e Caminhos dos arquivos<br><br>
 
 </table>
 
+<h3>Head</h3>
+Parte não visível no navegador, serve para configurar a página com configurações como title, links, icons, etc.
 
+<h4>Tag <code>meta</code></h4>
+* charset: codificação de caracteres especiais<br>
+* viewport: portabilidade para dispositivos mobiles; name para especificar a meta, content para falar o conteúdo.
 
+<h4>Favicon</h4>
+Link para ícones personalizados.<br>
+* Favicon básico:<br>
+<code>
 
+    &lt;link rel="icon" href=""&gt;
 
+</code><br><br>
+* Favicon para iPhone não-Retina, iPod touch e dispositivos Android 2.1+:<br>
+<code>
+    &lt;link rel="apple-touch-icon-precomposed" href=""&gt;
+</code>
 
+<h4>Meta SEO</h4>
+— SEO: SEARCH ENGINE OPTIMIZATION (motores de busca = google, etc.)<br><br>
+<code>&lt;meta name="" content=""&gt;</code><br><br>
+* author: define o autor da página;<br>
+* description: texto de descrição que exibe na pesquisa do google.<br>
+* robots: trabalhar com os robôs de mecanismo.<br>
 
+<h4>Meta SOCIAL</h4>
+Meta social são metas personalizados para.<br><br>
+<code>&lt;meta property="" content=""&gt;</code><br><br>
+
+— Facebook<br>
+* og:image <br>
+* og:description <br>
+* og:title <br><br>
+— Twitter<br>
+* twitter:title.
 
 <h3>Comandos</h3>
 <p>Ctrl + Shift + P (Janela de busca)</p>
