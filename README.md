@@ -8,11 +8,10 @@ Hi dev! :wave:
 
 <p align="center">
  <a href="##Repository description">Repository description</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="##Working on Hard Skills">Working on Hard Skills</a> • 
+ <a href="##Performing HTML & CSS">Performing HTML & CSS</a> • 
+ <a href="##Performing Javascript">Performing Javascript</a> • 
+ <a href="##Author">Author</a> • 
 </p>
 
 ## Repository description
@@ -85,3 +84,11 @@ Time investiment table
 - Async/Await
 - Functional programming
 - Object-oriented programming (OOP)
+
+## Author
+
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/75618609?s=460&u=774cdb346c874fe7cbe92f6888d356e450d83daa&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Ivan Silvestre</b></sub></a>
+
+ <p align="center"><small>I dedicate this repository to <b>Rocketseat</b>, especially Maik Brito for serving as inspiration. #NeverStopLearning :rocket:</small></p>
