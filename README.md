@@ -6,24 +6,22 @@ Hi dev! :wave:
 
 <!--ts-->
 
-- [Repository description](#Repository-decription)
-- [Tabela de Conteudo](#tabela-de-conteudo)
-- [Instalação](#instalacao)
-- [Como usar](#como-usar)
-  - [Pre Requisitos](#pre-requisitos)
-  - [Local files](#local-files)
-  - [Remote files](#remote-files)
-  - [Multiple files](#multiple-files)
-  - [Combo](#combo)
-- [Tests](#testes)
-- [Tecnologias](#tecnologias)
-<!--te-->
+<p align="center">
+ <a href="##Repository description">Repository description</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
 ## Repository description
 
 <p align="center">This folder is intended for my basic development learning and its subfolders contain my notes and practical applications for my professional training.</p>
 
-## Working on Hard Skills (Time investiment)
+## Working on Hard Skills
+
+Time investiment table
 
 | Hard Skill         | Study time |
 | ------------------ | ---------- |
@@ -67,5 +65,23 @@ Hi dev! :wave:
 - Algorithm and logic practice
   - JSChallenger
   - Codewars
+  - freecodecamp
+  - front-end mentor
 
 ### Macroactivities
+
+- Games
+- Applications
+  - Finances
+  - Relationships
+  - Cookeries
+  - Sales
+  - Musics
+
+#### Advanced JavaScript
+
+- AJAX
+- Promises
+- Async/Await
+- Functional programming
+- Object-oriented programming (OOP)
