@@ -7,18 +7,18 @@ Hi dev! :wave:
 <!--ts-->
 
 <p align="center">
- <a href="##Repository description">Repository description</a> •
- <a href="##Working on Hard Skills">Working on Hard Skills</a> • 
- <a href="##Performing HTML & CSS">Performing HTML & CSS</a> • 
- <a href="##Performing Javascript">Performing Javascript</a> • 
- <a href="##Author">Author</a> • 
+ <a href="#description">Repository description</a> •
+ <a href="#hardSkills">Working on Hard Skills</a> • 
+ <a href="#htmlCss">Performing HTML & CSS</a> • 
+ <a href="#js">Performing Javascript</a> • 
+ <a href="#author">Author</a> • 
 </p>
 
-## Repository description
+<p id="description">## Repository description</p>
 
 <p align="center">This folder is intended for my basic development learning and its subfolders contain my notes and practical applications for my professional training.</p>
 
-## Working on Hard Skills
+<p id="hardSkills">## Working on Hard Skills</p>
 
 Time investiment table
 
@@ -32,7 +32,7 @@ Time investiment table
 | Back-end           | 50h        |
 | React              | 100h       |
 
-## Performing HTML & CSS
+<p id="htmlCss">## Performing HTML & CSS</p>
 
 ### Microactivities
 
@@ -48,7 +48,7 @@ Time investiment table
 - Creation of 5 to 10 mini sites (one page, multipage)
 - Transforming Figma, Dribble, Behance layouts, etc.
 
-## Performing Javascript
+<p id="js">## Performing Javascript</p>
 
 ### Microactivities
 
@@ -85,10 +85,9 @@ Time investiment table
 - Functional programming
 - Object-oriented programming (OOP)
 
-## Author
+<p id="author">## Author</p>
 
-<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/75618609?s=460&u=774cdb346c874fe7cbe92f6888d356e450d83daa&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Ivan Silvestre</b></sub></a>
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/75618609?s=460&u=774cdb346c874fe7cbe92f6888d356e450d83daa&v=4" width="100px;" alt="Author"><br>
+<sub><b>Ivan Silvestre</b></sub></a>
 
  <p align="center"><small>I dedicate this repository to <b>Rocketseat</b>, especially Maik Brito for serving as inspiration. #NeverStopLearning :rocket:</small></p>
